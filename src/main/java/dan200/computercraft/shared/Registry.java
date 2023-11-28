@@ -122,7 +122,7 @@ public final class Registry
 
         private static BlockBehaviour.Properties properties()
         {
-            return BlockBehaviour.Properties.of( Material.STONE ).strength( 2 );
+            return BlockBehaviour.Properties.of( Material.STONE ).strength( 2 ).noOcclusion();
         }
 
         private static BlockBehaviour.Properties turtleProperties()
